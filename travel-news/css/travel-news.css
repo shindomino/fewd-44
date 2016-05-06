@@ -1,0 +1,16 @@
+body {
+  background-color: #A9F5F2;
+}
+
+.logo {
+  display: block;
+  margin: auto;
+}
+
+.hero {
+  width: 100%;
+}
+
+li {
+  list-style-type: none;
+}
