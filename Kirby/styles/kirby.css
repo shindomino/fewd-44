@@ -1,0 +1,136 @@
+/* Reset */
+/* ------------------------ */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	line-height: 1.5;
+	margin-bottom: 15px;
+  color: yellow;
+}
+
+
+/* Layout */
+/* ------------------------ */
+.a8788 {
+  background-image: url(../images/hero.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #EEE;
+  background-position: center;
+  height:600px;
+  width:100%;
+}
+.container {
+  height: 400px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+body {
+  background-color: black;
+	color: #ffffff;
+}
+header {
+	text-align: center;
+  font-size: 40px;
+  color: black;
+}
+.title {
+	font-size: 45px;
+  color: white;
+}
+li {
+	display: inline;
+	text-align: center;
+  padding: 14px 16px;
+}
+button {
+  border-radius: 16px;
+}
+.paratext {
+      width:900px;
+      margin:0 auto 0 auto;
+      padding:5px;
+      border:1px solid #cccccc;
+}
+/* Headings */
+/* ------------------------ */
+
+.clearfix {clear:both;}
+
+
+/* Navigation Lists */
+/* ------------------------ */
+
+
+
+/* Links */
+/* ------------------------ */
+a {
+	color: #2E64FE;
+}
+.container2 {
+  max-width:869px;
+  width:95%;
+  margin: 0 auto;
+}
+
+
+ul.contact_links button {padding:30px 60px;}
+ul.contact_links button li a {font-size:14px;}
+
+
+/* About Me page: Page One */
+/* ------------------------ */
+.nintendo {
+  resize: both;
+  width:400px; /* you can use % */
+  height: auto;
+  border-radius: 20px;
+  padding: 10px;
+}
+.webs {
+  resize: both;
+  width:400px; /* you can use % */
+  height: auto;
+  border-radius: 20px;
+  padding: 10px;
+}
+.marvel {
+  resize: both;
+  width:400px; /* you can use % */
+  height: auto;
+  border-radius: 20px;
+  padding: 10px;
+}
+figcaption {
+    font-variant: small-caps;
+    font-family: Arial;
+    font-weight: bold;
+    font-style: oblique;
+    color: #2EFE2E;
+}
+.imgContainer {
+  display: inline-block;
+}
+
+.outerblock {
+  width: 100%;
+}
+
+.triblock {
+  width: 1208px;
+  margin: 0 auto;
+}
+
+.buttonCenter {
+  text-align: center;
+}
+
+
+
+/* Resume page */
+/* ------------------------ */
