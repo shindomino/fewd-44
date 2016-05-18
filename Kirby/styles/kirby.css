@@ -55,6 +55,7 @@ button {
       margin:0 auto 0 auto;
       padding:5px;
       border:1px solid #cccccc;
+			background-color: #1C1E20;
 }
 /* Headings */
 /* ------------------------ */
@@ -134,10 +135,11 @@ figcaption {
 
 /* Resume page */
 /* ------------------------ */
-.work {
+.work{
 	text-align: center;
 	width:900px;
 	margin:0 auto 0 auto;
 	padding:5px;
 	border:1px solid #cccccc;
+	background-color: #1C1E20;
 }
