@@ -20,7 +20,7 @@ p {
   background-repeat: no-repeat;
   color: #EEE;
   background-position: center;
-  height:600px;
+  height:525px;
   width:100%;
 }
 .container {
@@ -134,3 +134,10 @@ figcaption {
 
 /* Resume page */
 /* ------------------------ */
+.work {
+	text-align: center;
+	width:900px;
+	margin:0 auto 0 auto;
+	padding:5px;
+	border:1px solid #cccccc;
+}
