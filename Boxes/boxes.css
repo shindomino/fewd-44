@@ -68,3 +68,30 @@ footer li {
 footer li:last-child {
   margin: 0;
 }
+
+
+
+
+/*Mobile Style*/
+/*-------------------------*/
+@media (max-width: 450px) {
+    header ul {
+      display: none;
+    }
+    main ul {
+      flex-direction: column;
+    }
+    main li {
+      width: 100%
+    }
+    main li:last-child {
+      display: none;
+    }
+    footer ul {
+      flex-direction: column;
+    }
+    footer li {
+      margin: 0;
+      margin-bottom: 5px;
+    }
+}
