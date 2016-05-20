@@ -1,0 +1,35 @@
+main {
+  display:flex;
+}
+
+h1,h2 {
+  color: #A3562f;
+}
+
+.bonnie {
+  padding: 16px;
+  font-size: 16px:
+  color: #96BC91;
+}
+
+section {
+  padding: 20px;
+  background: #ECEECF;
+  flex: 2;
+}
+
+img {
+  position: relative;
+  width: 100%;
+}
+
+.rightside {
+  padding: 20px;
+  background: #EBD17E;
+  flex: 1;
+}
+
+table {
+  text-align: center;
+  width: 100%;
+}
