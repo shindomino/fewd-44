@@ -1,0 +1,166 @@
+/* Fonts */
+body {
+    font-family: "Lato", Arial, sans-serif;
+    border-left: 5px solid;
+    border-left-color: #DEDEDE;
+    border-right: 5px solid;
+    border-right-color: #DEDEDE;
+}
+
+/* Layout */
+body {
+  display: block;
+  /*max-width: 800px;
+  padding: 40px;
+  margin: auto;*/
+}
+
+.container {
+  max-width: 950px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 60px;
+}
+
+.everything {
+  display: flex;
+}
+
+/*Lines between the Paragraphs*/
+.paragraph {
+  border-bottom: 1px solid #DEDEDE;
+  padding-bottom: 20px;
+
+  padding: 20px 0;
+  margin: 20px 0;
+
+  overflow: hidden;
+}
+
+/*Big Letter*/
+.firstcharacter {
+  float: left;
+  color: #DEDEDE;
+  font-size: 100px;
+  line-height: 60px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 10px;
+  padding-left: 3px;
+}
+
+footer li {
+  font-size: 18px;
+  list-style-type: none;
+  display: inline;
+  color: #ff0000;
+  border-right: 1px solid;
+  margin-top: 10px;
+  margin-right: 5px;
+  padding-right: 5px;
+}
+
+h1 {
+  color: #EB0010;
+  font-size: 50px;
+  font-weight: 200;
+}
+
+/*H2 before the top Li*/
+.dress {
+  font-size: 30px;
+  font-weight: 300;
+  padding: 16px 0;
+}
+
+/*Date and Titles of Both Paragraphs*/
+.date {
+  color: #DEDEDE;
+  font-size: 45px;
+  font-weight: 200;
+  padding-bottom: 10px;
+}
+
+.title {
+  font-size: 45px;
+  font-weight: 200;
+}
+
+/*Images*/
+img {
+  padding: 15px 0;
+  width: 100%
+}
+
+/*"Continues" and "More" Anchor Tag*/
+a {
+  float: right;
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 12px 0;
+}
+
+/*Li on the top*/
+.top {
+  font-size: 25px;
+}
+
+header li {
+  list-style-type: none;
+  display: inline;
+  flex: 1;
+  color: #DEDEDE;
+  /*border-bottom:1px solid;*/
+  margin:2px;
+  padding: 16px, 20px;
+  background: black;
+  text-align: center;
+}
+
+
+/*Paragraphs*/
+p {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.end {
+  color: #DEDEDE;
+  padding-top: 20px;
+  font-weight: 200;
+}
+
+.side li {
+  list-style-type: none;
+}
+
+/*Line below "About Us"*/
+
+/*Line above "Popular Posts"*/
+
+/*Le Sidebar*/
+
+.side {
+  margin-left: 20px;
+}
+
+h3 {
+  margin-bottom: 20px;
+}
+.about {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px 0;
+}
+
+.ad {
+  margin: 20px 0;
+  padding: 20px 0;
+}
+
+.popular {
+  margin: 20px 0;
+  padding: 20px 0;
+}
