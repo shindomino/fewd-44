@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Temperature Convertor</title>
+	<link rel="stylesheet" type="text/css" href="css/temperature-convertor.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700,400italic,900,900italic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<h1>Temperature Conversion</h1>
+		</header>
+		<main>
+			<div class="f-column">
+				<h2>Fahrenheit</h2>
+		    	<input class="fahrenheit" type="number"/><p class="type">°F</p>
+		    </div>
+		    <div class="sign"><p>=</p></div>
+		    <div class="c-column">
+		    	<h2>Celsius</h2>
+		    	<input class="celsius" type="number"/><p class="type">°C</p>
+		    </div>
+		</main>
+		<div class="description">
+		    	<p>Empirical scales are based on the measurement of physical parameters that express the property of interest to be measured through some formal, most commonly a simple linear, functional relationship. For the measurement of temperature, the <span class="p-highlight">formal definition of thermal equilibrium</span> in terms of the thermodynamic coordinate spaces of thermodynamic systems, expressed in the zeroth law of thermodynamics, provides the framework to measure temperature.</p>
+
+				<p>All temperature scales, including the modern thermodynamic temperature scale used in the <span class="p-highlight">International System of Units</span>, are calibrated according to thermal properties of a particular substance or device. Typically, this is established by fixing two well-defined temperature points and defining temperature increments via a linear function of the response of the thermometric device. For example, both the old Celsius scale and Fahrenheit scale were originally based on the linear expansion of a narrow mercury column within a limited range of temperature, each using different reference points and scale increments.</p>
+
+				<p>Different empirical scales may not be compatible with each other, except for small <span class="p-highlight">regions of temperature overlap</span>. If an alcohol thermometer and a mercury thermometer have same two fixed points, namely the freezing and boiling point of water, their reading will not agree with each other except at the fixed points, as <span class="p-highlight">the linear 1:1 relationship of expansion between any two thermometric substances may not be guaranteed.</span></p>
+
+				<p>Empirical temperature scales are not reflective of the fundamental, microscopic laws of matter. Temperature is a universal attribute of matter, yet empirical scales map a narrow range onto a scale that is known to have a useful functional form for a particular application. Thus, their range is limited. The working material only exists in a form under certain circumstances, beyond which it no longer can serve as a scale. For example, mercury freezes below 234.32 K, so temperature lower than that cannot be measured in a scale based on mercury. Even ITS-90, which interpolates among different ranges of temperature, has only a range of 0.65 K to approximately 1358 K (−272.5 °C to 1085 °C).</p>
+		    </div>
+		<footer></footer>
+	</div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+<script src="js/temperature-convertor.js"></script>
+<script>
+	this.addEventListener("load", init);
+</script>
+</html>

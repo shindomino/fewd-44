@@ -1,0 +1,66 @@
+/*Layout*/
+body {
+  background: #EEE;
+  font-family: sans-serif;
+  font-size: 30px;
+  margin: 60px;
+  padding: 0;
+}
+
+.register {
+  width: 400px;
+  margin: auto;
+}
+
+/*Checkout*/
+h1 {
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+li {
+  text-align: center;
+  margin: 5px 0;
+}
+
+.total {
+  text-align: right;
+}
+
+footer {
+  border-top: 1px solid black;
+  padding: 10px 0;
+  display: flex;
+}
+
+p {
+  flex: 1;
+}
+
+.checkout, form {
+  font-family: monospace;
+  background: white;
+  margin: 0 20px;
+  padding: 20px;
+  box-shadow: 0 0 5px;
+
+}
+
+/*Form*/
+form {
+  background: black;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+button {
+  display: none;
+}
