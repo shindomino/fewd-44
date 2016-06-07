@@ -1,7 +1,21 @@
-var parent = document.querySelector(".sponsored-articles");
+// Structure
+// ---------------------- //
+  var parent = document.querySelector(".sponsored-articles");
 
-var child = document.createElement("li");
+// Event Handler
+// ---------------------- //
+  function createItem() {
 
-parent.appendChild(child);
 
-child.textContent = "Trump wins 37 states! NEW USA PREZ!!";
+// Step One: Create
+  var child = document.createElement("li");
+
+  // Step Two: Bedazzle (Add Content & Attributes)
+  child.textContent = "Trump wins 37 states! NEW USA PREZ!!";
+  child.classList.add('new');
+  child.setAttribute('src', 'img/logo.jpg');
+
+  // Step Three: add to DOM Tree
+  parent.appendChild(child);
+
+}

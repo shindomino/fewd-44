@@ -1,0 +1,31 @@
+body {
+  padding: 20pz;
+  font-size: 18px;
+  font: Comic;
+}
+
+input {
+  padding: 5px;
+}
+
+button,
+input {
+  height: 30px;
+  background: none;
+  border 1px solid #999;
+  padding: 5px;
+}
+
+button {
+  background: lightblue;
+}
+
+/*Directions*/
+.directions {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.directions li {
+  margin-top: 10px;
+}
