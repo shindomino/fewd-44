@@ -10026,29 +10026,89 @@ var a = [
 // 1. What's the max number?
 var max = 0;
 
+a.forEach(findMax);
+
 function findMax(item) {
   if (item > max) {
     max = item;
   }
 }
-console.log("max", max);
+console.log(max);
 
 // 2. What's the sum of all the numbers?
+var sum = 0;
+
+a.forEach(SumAll);
+
+function SumAll(item) {
+  sum = sum + item;
+}
+console.log(sum);
 
 
 // 3. Which numbers are between 50 and 100?
+var between = [];
+a.forEach(findBetween);
+
+function findBetween(item) {
+  if ((item > 50) && (item < 100)) {
+    between.push(item);
+  }
+}
+console.log("between", between);
 
 
 // 4. How many numbers greater than 500?
+var grande = 0;
+a.forEach(grande500);
+
+function grande500(item) {
+  if (item > 500) {
+    grande = grande + 1;
+  }
+}
+console.log("grande", grande);
 
 
 // 5. How many even numbers?
+var even = [];
 
+a.forEach(isEven);
+
+function isEven(item) {
+  if (item % 2 == 0) {
+      even.push(item);
+  }
+}
+
+console.log("even", even.length);
 
 // 6. How many odd numbers?
+var odd = [];
+
+a.forEach(isOdd);
+
+function isOdd(item) {
+  if (item % 2 == 1) {
+      odd.push(item);
+  }
+}
+
+console.log("odd", odd.length);
+
 
 
 // 7. What's the largest even number?
+var SuperEven = 0;
+
+even.forEach(findEvenMax);
+
+function findEvenMax(item) {
+  if (item > SuperEven) {
+    SuperEven = item;
+  }
+}
+console.log("SuperEven", SuperEven);
 
 
 // 8. How many numbers, whose sum of digits is greater than 10?
