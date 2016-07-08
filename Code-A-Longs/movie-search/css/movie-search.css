@@ -1,0 +1,17 @@
+body {
+	background: thistle;
+	font-family: Avenir, Arial;
+	font-size: 20px;
+	margin: 15px;
+}
+h1 {
+	margin: 15px 0;
+}
+input {
+	padding: 10px;
+	font-size: 20px;
+}
+.results li {
+	padding: 15px;
+	border-bottom: 1px solid grey;
+}

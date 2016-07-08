@@ -10112,4 +10112,32 @@ console.log("SuperEven", SuperEven);
 
 
 // 8. How many numbers, whose sum of digits is greater than 10?
+var sum10 = 0;
+
+a.forEach(findSum);
+function findSum(item) {
+
+  // Setup
+  var sumOfDigits = 0;
+
+  item = item.toString();
+  var digits = item.split("");
+
+
+  var digits = item.toString().split("");
+
+
+  digits.forEach(addDigits);
+  function addDigits(digit) {
+    digit = parseInt(digit);
+    sumOfDigits = sumOfDigits + digit;
+  }
+
+  if (sumOfDigits > 10) {
+    sum10++;
+  }
+
+}
+  console.log("sum10", sum10);
+
 </script>

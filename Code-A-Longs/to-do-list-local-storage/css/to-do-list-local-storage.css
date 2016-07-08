@@ -1,0 +1,79 @@
+body {
+	font-family: Nunito;
+}
+
+h1 {
+	display: block;
+	text-align: center;
+	background-color: #2ecc71;
+	padding: 10px 10px;
+	margin-bottom: 20px;
+	font-size: 28px;
+}
+
+div {
+	margin: auto;
+	background-color: #bdc3c7;
+	width: 575px;
+	display: flex;
+	flex-direction: column;
+	border-radius: 5px;
+	border: 1px solid darkgray;
+}
+
+.boxes {
+	display: flex;
+	justify-content: center;
+
+}
+
+.text-box {
+	width: 200px;
+	height: 50px;
+	border-radius: 5px;
+	border-color: gray;
+	margin: 15px 5px;
+	padding-left: 10px;
+	border: 1px solid darkgray;
+	font-family: Nunito;
+	font-size: 18px;
+}
+
+button {
+	width: 80px;
+	height: 50px;
+	border-radius: 5px;
+	margin: 15px 15px;
+	background-color: skyblue;
+	border: 1px solid darkgray;
+	font-family: Nunito;
+	font-size: 18px;
+}
+
+.items {
+	margin-left: 20px;
+	margin-bottom: 5px;
+	font-size: 18px;
+	display: flex;
+	flex-direction: column;
+
+}
+
+p {
+	display: inline;
+}
+
+.gray{
+	color: gray;
+	font-style: italic;
+}
+
+input + label {
+	margin:0px 6px;
+
+}
+
+input:checked ~ label {
+	text-decoration: line-through;
+
+}

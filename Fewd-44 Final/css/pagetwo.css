@@ -1,0 +1,47 @@
+.container {
+  max-width: 900px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 60px;
+  border: 2px solid;
+  background: #e3dfd4;
+}
+
+body {
+  background-color: #edddc6;
+}
+
+main {
+  margin: 12px;
+  font-size: 16px;
+  font-family: fantasy;
+}
+
+footer {
+  border: 3px solid;
+  padding: 5px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.article-one,
+.article-two {
+  display: flex;
+}
+
+.closeup {
+  text-align: center;
+}
+
+.sst {
+  max-width: 600px;
+  max-height: 300px;
+}
+.ss {
+  max-width: 300px;
+  max-height: 225px;
+}
+/*body {
+  /*background: url(http://img02.deviantart.net/e47c/i/2013/028/3/3/usm203_spiderman_beatdown_comic_page_by_jeffwamester-d5t1p1n.jpg) no-repeat center center fixed;*/
+  /*opacity: 0.9;*/
+}

@@ -1,0 +1,50 @@
+.container {
+  max-width: 900px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 100px;
+  padding: 60px;
+  border: 2px solid;
+  background: #e3dfd4;
+}
+
+footer {
+  border: 3px solid;
+  padding: 5px;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 12px;
+}
+
+body {
+  background-color: #edddc6;
+}
+
+h1 {
+  border-bottom: 2px solid black;
+}
+
+.heroes,
+.villains {
+  border: 3px solid black;
+  border-radius: 12px;
+  padding: 12px;
+  margin: 12px;
+  text-align: center;
+}
+
+h1,
+ul {
+  text-align: center;
+}
+
+main {
+  max-width: 450px;
+  margin: auto;
+}
+
+img {
+  max-height: 300px;
+  max-width: 400px;
+  padding: 12px;
+}

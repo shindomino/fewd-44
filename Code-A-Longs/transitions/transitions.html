@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>CSS Transitions</title>
+
+  <style>
+
+  div {
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+  }
+  .square {
+    width: 100px;
+    height: 100px;
+    background: #ff8000;
+  }
+
+  .green {
+    background: #FF4000;
+  }
+
+  .circle {
+    width: 150px;
+    height: 150px;
+    background: #0080FF;
+    border-radius: 50%;
+  }
+  .oval {
+    border-radius: 10%;
+    background: #0B0B3B
+  }
+  section {
+    line-height: 50px;
+    width: 100px;
+    background: lightblue;
+    text-align: center;
+  }
+  .container {
+    overflow: hidden;
+  }
+  .close {
+    transform: translateY(-300px);
+  }
+  .cover {
+    transition: all 3s ease-out;
+  }
+  .spin {
+    transform: translateX(500px);
+  }
+  .wheel {
+    width: 150px;
+    height: 150px;
+    transition: all 3s cubic-bezier(0.95, 0.05, 0.795, 0.035);
+  }
+  .wheel img {
+    width: 100%;
+  }
+  .spin .wheel {
+    transform: rotate(360deg);
+    transform-origin: 50% 50%;
+  }
+
+  </style>
+  </head>
+  <body>
+
+    <aside class="cover">
+      <aside class="wheel">
+          <img src="http://www.foxsports.com/content/dam/fsdigital/fscom/global/dev/static_resources/nba/teams/retina/9.png">
+      </aside>
+    </aside>
+
+    <div class="square"></div>
+    <div class="circle"></div>
+
+    <section class="blog-tab">   Blog    </section>
+      <div class="container">
+        <div class="blog-content">
+          <p>
+            Stark Industries, later also known as Stark International, Stark Innovations, Stark/Fujikawa, Stark Enterprises and Stark Resilient, is a fictional company owned and run by businessman Anthony Edward "Tony" Stark, also known as Iron Man. The company appears in stories published by Marvel Comics. It first appeared in Tales of Suspense #40 (April 1963) and was founded by Tony's father, Howard Stark. According to Forbes 25 largest fictional companies it had an estimated sales of $20.3 billion, ranking it at number 16.[1][2] In the Marvel Cinematic Universe, Stark Industries has a logo similar to that of defense contractors Lockheed Martin and Northrop Grumman[3] and is listed on the New York Stock Exchange as SIA. During the press conference scene, Stark is seen entering a building that resembles the entrance to Lockheed Martin's Skunk Works facility. An airplane extremely similar to the Lockheed YF-22 stood as a statue in front of the Stark Industries facility, exactly like the prototypes on display at Skunk Works facility in Palmdale, California.
+          </p>
+        </div>
+      </div>
+
+
+
+    <script>
+    var cover = document.querySelector('.cover');
+    var wheel = document.querySelector('.wheel');
+    wheel.addEventListener('click', spin);
+    function spin() {
+      cover.classList.toggle('spin');
+    }
+
+    var blogTab     = document.querySelector('.blog-tab');
+    var blogContent = document.querySelector('.blog-content');
+
+    blogTab.addEventListener('click', showBlogTab);
+
+    function showBlogTab() {
+      blogContent.classList.toggle('close');
+    }
+
+
+
+    var square = document.querySelector('.square');
+    var circle = document.querySelector('.circle');
+
+
+    square.addEventListener('click', roundIt);
+    circle.addEventListener("click", ovalIt);
+
+    function roundIt() {
+      console.log('roundIt');
+      square.classList.add('green');
+    }
+    function ovalIt() {
+      console.log('squareIt');
+      circle.classList.add('oval');
+    }
+
+    </script>
+  </body>
+</html>

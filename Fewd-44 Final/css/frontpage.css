@@ -1,0 +1,172 @@
+/* Universal Styles */
+/* ----------------------------- */
+.container {
+  max-width: 900px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 60px;
+  border: 2px solid;
+  background: #e3dfd4;
+}
+
+body {
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 10px;
+  color: gray;
+}
+
+.page {
+  height: 1400px;
+}
+
+/* frontpage styles */
+/* ----------------------------- */
+.top,
+footer,
+.frontpage main,
+.side {
+  border: 3px solid;
+  padding: 5px;
+  font-size: 16px;
+  text-align: center;
+  margin: 12px;
+}
+
+.article,
+.barcode {
+  border: 1px solid;
+  padding: 3px;
+  border-color: red;
+}
+
+.barcode {
+  margin-top: 20px;
+}
+
+.wrap {
+  display: flex;
+}
+
+main {
+  flex: 1;
+}
+
+.excelsior {
+  border-bottom: 2px solid;
+}
+
+h2 {
+  border-top: 2px solid;
+}
+
+.frontpage main img {
+  float: left;
+  margin: 10px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: blue;
+  height: 475px;
+}
+
+.article img {
+  max-width: 100px;
+  max-height: 100px;
+  text-align: center;
+  border-radius: 50px;
+  margin: 10px 0;
+}
+
+.barcode img {
+  max-width: 200px;
+  max-height: 150px;
+  text-align: center;
+  margin: 10px 0;
+}
+
+
+
+.clearfix {
+  overflow: auto;
+}
+
+/* pagetwo styles */
+/* ----------------------------- */
+
+.pagetwo footer {
+  border: 3px solid;
+  padding: 5px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.closeup {
+  text-align: center;
+}
+
+.article-one,
+.article-two {
+  display: flex;
+}
+
+.pagetwo main {
+  margin: 12px;
+  font-size: 16px;
+  border: 3px solid;
+  padding: 5px;
+  text-align: center;
+
+  }
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+.pagetwo header img {
+  padding: 16px;
+}
+
+
+/* pagethree styles */
+/* ----------------------------- */
+.pagethree h1 {
+  border-bottom: 2px solid black;
+}
+
+.heroes,
+.villains {
+  border: 3px solid black;
+  border-radius: 12px;
+  padding: 12px;
+  margin: 12px;
+  text-align: center;
+}
+
+.pagethree h1,
+ul {
+  text-align: center;
+}
+
+.pagethree main {
+  max-width: 450px;
+  margin: auto;
+}
+
+.pagethree img {
+  max-height: 300px;
+  max-width: 400px;
+  padding: 12px;
+}
+
+/*.pagethree {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    padding: 60px;
+    border: 2px solid;
+}*/

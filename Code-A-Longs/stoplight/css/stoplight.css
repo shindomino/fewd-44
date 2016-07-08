@@ -1,0 +1,42 @@
+button {
+  color: black;
+  font-size: 30;
+  padding: 12;
+}
+
+.light {
+  display: block;
+  align-items: center;
+  background: gray;
+  border-radius: 25%;
+}
+
+.redcircle {
+  width: 150px;
+  height: 150px;
+  background: red;
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  left: 35px;
+}
+
+.yellowcircle {
+  width: 150px;
+  height: 150px;
+  background: yellow;
+  border-radius: 50%;
+  position: absolute;
+  top: 175px;
+  left: 35px;
+}
+
+.greencircle {
+  width: 150px;
+  height: 150px;
+  background: green;
+  border-radius: 50%;
+  position: absolute;
+  top: 330px;
+  left: 35px;
+}
